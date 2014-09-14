@@ -315,7 +315,7 @@
 				{
 					position: absolute;
 					left: 0;
-					bottom: 60%;
+					bottom: 70%;
 					margin: 0;
 				}
 			
@@ -323,7 +323,7 @@
 				{
 					position: absolute;
 					left: 0;
-					top: 47.5%;
+					top: 38%;
 					font-size: 1.5em;
 					letter-spacing: -0.015em;
 					margin-top: 0;
@@ -333,7 +333,7 @@
 				{
 					position: absolute;
 					left: 0;
-					top: 62.5%;
+					top: 54%;
 					font-size: 1.5em;
 					letter-spacing: -0.015em;
 					margin-top: 0;
@@ -344,7 +344,7 @@
 				{
 					position: absolute;
 					left: 13%;
-					top: 62.5%;
+					top: 54%;
 					font-size: 1.5em;
 					letter-spacing: -0.015em;
 					margin-top: 0;
@@ -356,7 +356,7 @@
 				{
 					position: absolute;
 					left: 37%;
-					top: 62.5%;
+					top: 54%;
 					font-size: 1.5em;
 					letter-spacing: -0.015em;
 					margin-top: 0;
@@ -367,7 +367,7 @@
 				{
 					position: absolute;
 					left: 24%;
-					top: 62.5%;
+					top: 54%;
 					font-size: 1.5em;
 					letter-spacing: -0.015em;
 					margin-top: 0;
@@ -378,6 +378,62 @@
 				{
           color: red;
 				}
+        
+        .skills {
+					position: absolute;
+					left: 0%;
+					top: 72%;
+					font-size: 1.5em;
+					letter-spacing: -0.015em;
+					margin-top: 0;
+          text-decoration: none;
+        }
+        
+        .tech-icon
+        {
+          display: inline-block;
+/*          border: 1px solid black;*/
+          margin: 2px;
+          width: 80px;
+          height: 0;
+          padding-bottom: 12%;
+        }
+
+        .tech-icon > a > img.reg-img {
+/*          border: 1px solid black;*/
+          display: block;
+          width: 60%;
+          height: auto;
+          margin: 0;
+          margin-right: 5px;
+        }
+        
+        .tech-icon > a > img.postgres {
+/*          border: 1px solid black;*/
+          display: block;
+          width: 60%;
+          height: auto;
+          margin: 0;
+          margin-left: -5px;
+        }
+        
+
+        .tech-icon > a > img.small-img {
+/*          border: 1px solid black;*/
+          width: 48%;
+          height: auto;
+          margin: 0;
+          display: block;
+        }
+        
+        .tech-icon > a > img.javascript {
+/*          border: 1px solid black;*/
+          width: 54%;
+          height: auto;
+          margin: 0;
+          display: block;
+        }
+        
 
 /*********************************************************************************/
 /* Footer                                                                        */
